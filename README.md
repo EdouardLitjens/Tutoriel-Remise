@@ -1,6 +1,7 @@
-Qu'est-ce qu'une fonction lambda : pourquoi et comment l'utiliser ?
+# **Qu'est-ce qu'une fonction lambda : pourquoi et comment l'utiliser ?**
 
-Introduction:
+
+## **Introduction:**
 
 Avec le langage Python, les programmeurs sont constamment à la recherche de façon de rendre leurs codes plus concis, 
 simple et efficace. Une fonctionnalité très intéressante et souvent méconnues des utilisateurs débutants sur Python est 
@@ -9,9 +10,10 @@ l’aide du mot-clé `def`. Elle est donc créer avec le mot-clé `lambda`. Cett
 simplement et rapidement sans la nécessité de créer une fonction formelle. Nous allons tout d'abors décomposer la synthaxe
 générale de la fonction lambda et par la suite démontrer des exemples de son utilisation.
 
-Synthaxe :
 
-La synthaxe de la fonction lambda peut être définie comme suit :
+## **Synthaxe :**
+
+### La synthaxe de la fonction lambda peut être définie comme suit :
 
 lambda arguments : expression
 
@@ -22,7 +24,7 @@ de choses (ex: variable, liste, un mot-clé, paramètres conditionnels, etc).
 exécutée lorsque la fonction est appelée. Cette expression est évaluée et le résultat est renvoyé. Par exemple, il
 s'agir : d'une multiplication scalaire, une addition, un filtrage de liste, une vérification de parité, etc.
 
-Voici un exemple simple et concret de l'utilisation de la fonction lambda : 
+### Voici un exemple simple et concret de l'utilisation de la fonction lambda : 
 
 addition = lambda x, y: x + y
 
@@ -31,13 +33,14 @@ l'expression qui sera évaluée et renvoyée lorsque la fonction est appelée av
 Donc en ayant des nombres spécifique pour `x` et `y`, la fonction nous ferait l'addition.
 
 
-Contexte d'utilisation:
+## **Contexte d'utilisation:**
 
 La fonction lambda est souvent utilisée dans des situations où une petite fonction est nécessaire pour une opération 
 ponctuelle. Voici quelques contextes courants où la fonction lambda est particulièrement utile :
 
 
-Exemple #1
+#### **Exemple #1**
+
 Les fonctions lambda sont souvent utilisées avec des fonctions intégrées telles que `map()`,`filter()`, et `sorted()`.
 Par exemple, ici, nous allons appliquer une opération simple à chaque élément d'une liste. Nous allons utiliser la fonction 
 `map()` avec une fonction lambda.
@@ -50,7 +53,8 @@ d'une liste et obtenir une nouvelle liste résultante. C'est un moyen efficace e
 sur des données de manière itérative.
 
 
-Exemple #2
+#### **Exemple #2**
+
 Tri personnalisé: Lors du tri d'objets complexes, vous pouvez utiliser la fonction lambda pour spécifier une clé de tri 
 personnalisée. Nous allons utilisé la fonction `sorted()` avec lambda.
 
@@ -61,7 +65,8 @@ Dans cet exemple-ci, on utilise la fonction lambda comme clé de tri personnalis
 une liste d'objets complexes selon un critère spécifique (dans le cas présent l’âge). On peut donc voir la facilité et 
 la simplicité de traitement de données grâce à la fonction.
 
-Exemple #3
+
+#### **Exemple #3**
 
 Filtrage de données: Vous pouvez utiliser la fonction lambda avec `filter()` pour filtrer des éléments d'une séquence 
 en fonction d'un critère spécifique.
@@ -75,7 +80,8 @@ contenant uniquement les éléments souhaités. La fonction de lambda dans l’e
 (un nombre de la liste) et de retourner `True`si le nombre est pair (c'est-à-dire si le reste de la division par 2 est 
 égal à zéro), sinon elle retourne `False` et le nombre sera exclu. 
 
-Exemple #4
+
+#### **Exemple #4**
 
 Expressions de listes et de dictionnaires: Les fonctions lambda sont souvent utilisées pour créer des expressions de 
 listes ou de dictionnaires de manière concise.
@@ -90,7 +96,7 @@ Plus précisément, la fonction lambda `x**2` est utilisée pour calculer le car
 liste contenant les carrés des nombres de la liste initiale.
 
 
-Mise en garde lors de l'utilisation : 
+## **Mise en garde lors de l'utilisation :** 
 
 Dans ces contextes, l'utilisation de la fonction lambda a permis d'écrire un code plus concis et lisible, en évitant de
 la définition formelle de fonction à part entière. Cependant, il est important de noter que l'abus de fonctions lambda 
@@ -99,7 +105,7 @@ peut rendre le code moins lisible. En effet, en ayant trop de fonction lambda le
 clarté du code plutôt que d'essayer de le rendre trop concis. Cette fonction peut être très utile dans certains contextes,
 mais elle n'est pas toujours nécéssaire. 
 
-Conclusion : 
+## **Conclusion :** 
 
 La fonction lambda peut sembler compliqué au premier regard, par contre elle permet de créer des fonctions simples et 
 rapides sans la nécessité de définir formellement une fonction avec le mot-clé `def`. Sa syntaxe est concise et elle 
@@ -108,7 +114,8 @@ les expressions de listes. Bien quel doit être utilisé avec modération, c’e
 outils de programmeur Python. C’est une belle alternative pour faire varier votre code des autres techniques appris dans 
 ce cours. 
 
-Source : 
+#### **Source :** 
+
 -https://www.w3schools.com/python/python_lambda.asp
 -https://realpython.com/python-lambda/
 -https://chat.openai.com/
