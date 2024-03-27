@@ -7,7 +7,7 @@ Avec le langage Python, les programmeurs sont constamment à la recherche de fa�
 simple et efficace. Une fonctionnalité très intéressante et souvent méconnues des utilisateurs débutants sur Python est 
 la fonction lambda. Lambda est une fonction anonyme, ce qui veut dire qu’elle n’est pas définie avec un nom habituel à 
 l’aide du mot-clé `def`. Elle est donc créer avec le mot-clé `lambda`. Cette fonctionnalité permet de définir des fonctions 
-simplement et rapidement sans la nécessité de créer une fonction formelle. Nous allons tout d'abors décomposer la synthaxe
+simplement et rapidement sans la nécessité de créer une fonction formelle. Nous allons tout d'abord décomposer la synthaxe
 générale de la fonction lambda et par la suite démontrer des exemples de son utilisation.
 
 
@@ -17,10 +17,10 @@ générale de la fonction lambda et par la suite démontrer des exemples de son 
 
 lambda arguments : expression
 
--Le mot-clé `lambda` est utilisé pour indiquer que nous définissions une fonction lambda.
--Nous avons ensuite `arguments`, qui représente le/les paramètres de la fonction. Ils peuvent représenter une multitude 
+* -Le mot-clé `lambda` est utilisé pour indiquer que nous définissions une fonction lambda.
+* -Nous avons ensuite `arguments`, qui représente le/les paramètres de la fonction. Ils peuvent représenter une multitude 
 de choses (ex: variable, liste, un mot-clé, paramètres conditionnels, etc).
--Pour finir, nous avons `expression` qui est le corps de la fonction lambda. C'est l'expression (l'instruction) qui est
+* -Pour finir, nous avons `expression` qui est le corps de la fonction lambda. C'est l'expression (l'instruction) qui est
 exécutée lorsque la fonction est appelée. Cette expression est évaluée et le résultat est renvoyé. Par exemple, il
 s'agir : d'une multiplication scalaire, une addition, un filtrage de liste, une vérification de parité, etc.
 
