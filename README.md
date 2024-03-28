@@ -18,13 +18,16 @@ Avant de commencer les explications, expliquons la différence entre le mot-clé
 confusion de leur utilisation. 
 
 1. La nomination 
+
 Avec `def`, notre fonction aura un nom spécifique alors qu'avec `lambda` la fonction n'a pas de nom (anonyme)
 
 2. Corps de la fonction
+
 Le corps de la fonction `lambda` va être généralement plus simple puisqu'il est limité à une seule expression. Avec `def`
 on va pourvoir utiliser plusieurs expressions (donner plusieurs instructions). La fonction pourra donc être plus complexe.
 
 3. La clarté
+
 Comme mentionné précédemment, `lambda` va être utilisé pour les fonctions plus simple. `Def` va nous être utile pour des 
 fonctions plus complètes et répétable dans le texte. Il va être plus facile de revenir par la suite et de comprendre ces 
 fonctions. Un code plus gros et avec plus d'instructions sera plus lisible avec `Def`.
