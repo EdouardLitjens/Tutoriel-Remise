@@ -69,8 +69,8 @@ Les fonctions lambda sont souvent utilisées avec des fonctions intégrées tell
 Par exemple, ici, nous allons appliquer une opération simple à chaque élément d'une liste. Nous allons utiliser la fonction 
 `map()` avec une fonction lambda.
 
-`nombres = [1, 2, 3, 4, 5]
-nombre_pairs = map(lambda x: x**2, nombres)`
+`nombres = [1, 2, 3, 4, 5]`
+`nombre_pairs = map(lambda x: x**2, nombres)`
 
 Dans l’exemple on utilise une fonction lambda avec `map()` pour appliquer rapidement une opération à chaque élément 
 d'une liste et obtenir une nouvelle liste résultante. C'est un moyen efficace et concis d'effectuer des transformations
@@ -83,8 +83,8 @@ sur des données de manière itérative.
 Tri personnalisé: Lors du tri d'objets complexes, vous pouvez utiliser la fonction lambda pour spécifier une clé de tri 
 personnalisée. Nous allons utilisé la fonction `sorted()` avec lambda.
 
-`etudiants = [('Philippe', 27), ('Roger', 15), ('Anna', 33)]
-tri_etudiants = sorted(etudiants, key=lambda x: x[1])`
+`etudiants = [('Philippe', 27), ('Roger', 15), ('Anna', 33)]`
+`tri_etudiants = sorted(etudiants, key=lambda x: x[1])`
 
 Dans cet exemple-ci, on utilise la fonction lambda comme clé de tri personnalisée avec la fonction `sorted()` pour trier 
 une liste d'objets complexes selon un critère spécifique (dans le cas présent l’âge). On peut donc voir la facilité et 
@@ -97,8 +97,8 @@ la simplicité de traitement de données grâce à la fonction.
 Filtrage de données: Vous pouvez utiliser la fonction lambda avec `filter()` pour filtrer des éléments d'une séquence 
 en fonction d'un critère spécifique.
 
-`nombre = [1, 2, 3, 4, 5]
-nombre_pairs = filter(lambda x: x % 2 == 0, nombre)`
+`nombre = [1, 2, 3, 4, 5]`
+`nombre_pairs = filter(lambda x: x % 2 == 0, nombre)`
 
 J'ai repris mon exemple avec une liste de nombre. Ici, on utilise la fonction lambda avec `filter()` pour filtrer 
 rapidement les éléments d'une liste en fonction d'un critère spécifique, ce qui permet de créer une nouvelle liste 
@@ -113,8 +113,8 @@ contenant uniquement les éléments souhaités. La fonction de lambda dans l’e
 Expressions de listes et de dictionnaires: Les fonctions lambda sont souvent utilisées pour créer des expressions de 
 listes ou de dictionnaires de manière concise.
 
-`nombres = [1, 2, 3, 4, 5]
-nombres_carre = [x**2 for x in nombres]`
+`nombres = [1, 2, 3, 4, 5]`
+`nombres_carre = [x**2 for x in nombres]`
 
 Dans cet exemple, la fonction lambda est utilisée pour définir une opération à appliquer à chaque élément d'une liste. 
 Plus précisément, la fonction lambda `x**2` est utilisée pour calculer le carré de chaque nombre`x` dans la liste 
