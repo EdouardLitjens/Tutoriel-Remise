@@ -70,6 +70,7 @@ Par exemple, ici, nous allons appliquer une opération simple à chaque élémen
 `map()` avec une fonction lambda.
 
 `nombres = [1, 2, 3, 4, 5]`
+
 `nombre_pairs = map(lambda x: x**2, nombres)`
 
 Dans l’exemple on utilise une fonction lambda avec `map()` pour appliquer rapidement une opération à chaque élément 
@@ -84,6 +85,7 @@ Tri personnalisé: Lors du tri d'objets complexes, vous pouvez utiliser la fonct
 personnalisée. Nous allons utilisé la fonction `sorted()` avec lambda.
 
 `etudiants = [('Philippe', 27), ('Roger', 15), ('Anna', 33)]`
+
 `tri_etudiants = sorted(etudiants, key=lambda x: x[1])`
 
 Dans cet exemple-ci, on utilise la fonction lambda comme clé de tri personnalisée avec la fonction `sorted()` pour trier 
@@ -98,6 +100,7 @@ Filtrage de données: Vous pouvez utiliser la fonction lambda avec `filter()` po
 en fonction d'un critère spécifique.
 
 `nombre = [1, 2, 3, 4, 5]`
+
 `nombre_pairs = filter(lambda x: x % 2 == 0, nombre)`
 
 J'ai repris mon exemple avec une liste de nombre. Ici, on utilise la fonction lambda avec `filter()` pour filtrer 
@@ -114,6 +117,7 @@ Expressions de listes et de dictionnaires: Les fonctions lambda sont souvent uti
 listes ou de dictionnaires de manière concise.
 
 `nombres = [1, 2, 3, 4, 5]`
+
 `nombres_carre = [x**2 for x in nombres]`
 
 Dans cet exemple, la fonction lambda est utilisée pour définir une opération à appliquer à chaque élément d'une liste. 
